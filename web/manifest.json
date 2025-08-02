@@ -1,17 +1,58 @@
 {
-    "name": "barcode_scanner_app",
-    "short_name": "barcode_scanner_app",
-    "start_url": ".",
+    "name": "Jinsovik Сканер",
+    "short_name": "Jinsovik",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#121212",
-    "theme_color": "#121212",
-    "description": "A new Flutter project.",
+    "theme_color": "#45A1FF",
+    "description": "Потужний сканер штрих-кодів та QR-кодів від Jinsovik",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "scope": "/",
+    "lang": "uk",
+    "categories": ["productivity", "utilities"],
+    "screenshots": [
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ],
     "icons": [
+        {
+            "src": "icons/Icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
         {
             "src": "icons/Icon-192.png",
             "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-384.png",
+            "sizes": "384x384",
             "type": "image/png"
         },
         {
